@@ -1,4 +1,3 @@
-=
 
 # Process Creation in QNX
 
