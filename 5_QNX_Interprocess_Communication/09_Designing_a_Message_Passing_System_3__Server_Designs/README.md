@@ -6,25 +6,6 @@ This document covers the third part of designing a message passing system in QNX
 
 ---
 
-## Table of Contents
-
-1. [Server Designs](#1-server-designs)
-   - [Single-Threaded Server](#single-threaded-server)
-   - [Multi-Threaded Server](#multi-threaded-server)
-   - [Thread Pool Architecture](#thread-pool-architecture)
-   - [Delayed Reply Pattern](#delayed-reply-pattern)
-2. [Deadlock Avoidance](#2-deadlock-avoidance)
-   - [The Deadlock Problem](#the-deadlock-problem)
-   - [Send Hierarchy](#send-hierarchy)
-   - [Pulses for Upward Notification](#pulses-for-upward-notification)
-   - [Deferred Reply Pattern](#deferred-reply-pattern)
-   - [Practical Rules](#practical-rules)
-3. [Priority Inheritance in Servers](#3-priority-inheritance-in-servers)
-4. [Complete Examples](#4-complete-examples)
-5. [Key Takeaways](#5-key-takeaways)
-
----
-
 ## 1. Server Designs
 
 ### Single-Threaded Server
