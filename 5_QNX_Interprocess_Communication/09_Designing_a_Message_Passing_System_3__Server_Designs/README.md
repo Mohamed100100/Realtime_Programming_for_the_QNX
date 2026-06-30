@@ -1,4 +1,4 @@
-# QNX Message Passing System — Part 3: Server Designs & Deadlock Avoidance
+# QNX Message Passing System — Part 3: Server Designs 
 
 > **Companion to:** QNX Multi-Part Messages (IOVs, MsgSendv, MsgRead, MsgWrite)
 
